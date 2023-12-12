@@ -1,0 +1,116 @@
+#banner{
+background-color: pink;
+width: 350px;
+height: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-style: solid;
+border-radius: 10px;
+border-width: 2px;
+border-color: orange;
+box-shadow: 10px 10px 10px;
+}
+
+#box{
+    display: flex;
+    flex-direction: column;
+    height: 900px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#login_box{
+    width: 350px;
+    height: 200px;
+    background-color: rgb(123, 183, 70);
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: orange;
+    box-shadow: 10px 10px 10px;
+}
+
+#top{
+    left: 20px;
+    display: flex;
+    
+}
+
+#top_text{
+    width: 80px;
+    font-size: 20px;
+    background-color: blueviolet;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+
+}
+
+#login_text_box{
+    display: flex;
+    position: relative;
+    left: 75px;
+    height: 40px;
+    width: 200px;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: orange;
+    background-color: pink;
+    align-items:center;
+    justify-content:center;
+}
+
+#mid_text_box_id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    margin-bottom: 7px;
+}
+
+#mid_login_box{
+    display: flex;
+}
+
+#login_box_box{
+height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#join_box{
+    display: flex;
+
+}
+
+
+body{
+    background-color: green;
+    
+}
+
+
+
+
+.login{
+    height: 20px;
+    width: 100px;
+    top: 0px;
+}
+
+/* #login_plz{
+
+    } */

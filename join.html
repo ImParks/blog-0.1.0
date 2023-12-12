@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Join.css">
+    <script src="join.js"></script>
+
+</head>
+
+<body>
+    <div id="head">
+                <h2> 회원가입 </h2>
+
+
+
+
+            <div>
+                <div>
+                    <p id:"join">아이디</p>
+
+                    <input type="text" id="id" minlength="4" maxlength="12" required placeholder="4자리이상~12자리 이하"><br>
+                </div>
+                <div>
+                    <p id:"join">이메일</p>
+
+                    <input type="email" id="email" placeholder="email" required>
+
+                    <select>
+                        <option>@gmail.com</option>
+                        <option>@naver.com</option>
+                        <option>직접입력</option>
+                    </select>
+
+                </div>
+                <div>
+                    <p id:"join">비밀번호</p>
+
+                    <input type="password" id="password" placeholder="password" minlength="4" maxlength="12" required><br>
+                </div>
+
+                <div>
+                    <p id:"join">비밀번호 확인</p>
+
+                    <input type="password" id="password_re" placeholder="password_re" minlength="4" maxlength="12" required><br>
+                </div>
+
+                <div>
+                    <p id:"join">이름</p>
+
+                    <input type="text" id="name" placeholder="name" required><br>
+                </div>
+                <div>
+                    <input type="radio" name="sex" value="남성" checked>남성
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="sex" value="여성" >여성
+
+                </div>
+                <div>
+                    <p id:"join">생년월일</p>
+
+                    <input type="date" id="date" required>
+                </div>
+                <div>
+                    <input type="radio" name="from" value="내국인" checked>내국인
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="radio" name="from" value="외국인">외국인
+                </div>
+                <div>
+                    <p id:"join">휴대폰 인증</p>
+
+                    <input type="text" placeholder="전화번호">
+
+                    <select>
+                        <option>SKT</option>
+                        <option>KT</option>
+                        <option>LG</option>
+                        <option>알뜰폰</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="button" value="인증코드발송">
+                    <br>
+                    <br>
+                </div>
+                <hr>
+                <div>
+                    <h4>인증 약관 동의</h4>
+                    <input type="checkbox" name="checkbox">개인정보 이용
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="checkbox">고유식별정보 처리
+                    <br>
+                    <input type="checkbox" name="checkbox">통신사 이용약관
+                    &nbsp;&nbsp;&nbsp;
+                    <input type="checkbox" name="checkbox">인증사 이용약관
+                    <br>
+                    <input type="checkbox" name="checkbox">네이버 개인정보 수집
+                </div>
+                <br>
+                <hr>
+                <div>
+                    <br>
+                    <input type="button" value="회원가입" onclick="join()">
+                </div>
+            </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>

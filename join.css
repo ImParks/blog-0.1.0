@@ -1,0 +1,21 @@
+
+#head{
+    margin:10px;
+    border: 5px black solid;
+    padding: 20px;
+    height: 1200px;
+    width: 600px;
+    background-color:pink;
+}
+
+#join{
+    display: flex;
+    height: 20px;
+    width: 200px;
+}
+
+#flex{
+    display: flex;
+}
+
+
